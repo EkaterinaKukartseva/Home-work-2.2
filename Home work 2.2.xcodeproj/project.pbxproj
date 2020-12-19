@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D7B52A258E8C5700160A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D7B529258E8C5700160A1E /* ViewController.swift */; };
 		00DA82B42579791500C38627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA82B32579791500C38627 /* AppDelegate.swift */; };
 		00DA82B62579791500C38627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA82B52579791500C38627 /* SceneDelegate.swift */; };
-		00DA82B82579791500C38627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA82B72579791500C38627 /* ViewController.swift */; };
+		00DA82B82579791500C38627 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA82B72579791500C38627 /* SettingsViewController.swift */; };
 		00DA82BB2579791500C38627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DA82B92579791500C38627 /* Main.storyboard */; };
 		00DA82BD2579791700C38627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DA82BC2579791700C38627 /* Assets.xcassets */; };
 		00DA82C02579791700C38627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DA82BE2579791700C38627 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00D7B529258E8C5700160A1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00DA82B02579791500C38627 /* Home work 2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home work 2.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DA82B32579791500C38627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DA82B52579791500C38627 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00DA82B72579791500C38627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00DA82B72579791500C38627 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		00DA82BA2579791500C38627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00DA82BC2579791700C38627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DA82BF2579791700C38627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 			children = (
 				00DA82B32579791500C38627 /* AppDelegate.swift */,
 				00DA82B52579791500C38627 /* SceneDelegate.swift */,
-				00DA82B72579791500C38627 /* ViewController.swift */,
+				00DA82B72579791500C38627 /* SettingsViewController.swift */,
 				00DA82B92579791500C38627 /* Main.storyboard */,
 				00DA82BC2579791700C38627 /* Assets.xcassets */,
 				00DA82BE2579791700C38627 /* LaunchScreen.storyboard */,
 				00DA82C12579791700C38627 /* Info.plist */,
+				00D7B529258E8C5700160A1E /* ViewController.swift */,
 			);
 			path = "Home work 2.2";
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00DA82B82579791500C38627 /* ViewController.swift in Sources */,
+				00DA82B82579791500C38627 /* SettingsViewController.swift in Sources */,
 				00DA82B42579791500C38627 /* AppDelegate.swift in Sources */,
+				00D7B52A258E8C5700160A1E /* ViewController.swift in Sources */,
 				00DA82B62579791500C38627 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
